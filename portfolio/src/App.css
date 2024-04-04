@@ -1,0 +1,37 @@
+body{
+  background: 
+  url("https://transparenttextures.com/patterns/subtle-dots.png"),
+  /* linear-gradient(to bottom right,#3F5B69,#C34477,#f1a17c) ; */
+  #20356A
+  ;
+  font-family: Nunito Sans;
+}
+
+
+
+.title{
+  -webkit-text-stroke: #f79663 1px;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  
+}
+
+.slide-left{
+  animation-name: slide-left;
+  animation-duration: 1s;
+}
+
+.slide-right{
+  animation-name: slide-right;
+  animation-duration: 1s;
+}
+
+@keyframes slide-left{
+  0% {left:100rem}
+  100%{left:0rem}
+}
+
+@keyframes slide-right{
+  0% {right:100rem}
+  100%{right:0rem}
+}
